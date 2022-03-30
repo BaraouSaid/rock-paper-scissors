@@ -1,2 +1,1 @@
-# rock-paper-scissors
-SHI FU MI GAME
+# rock_paper_scissors
