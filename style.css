@@ -108,6 +108,7 @@ button:active {
 
 @media screen and (max-width: 600px) {
   .buttons {
+    min-height: 30vh;
     gap: 1rem;
   }
 
