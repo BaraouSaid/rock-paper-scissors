@@ -7,6 +7,7 @@ html, body{
 body{
   min-height: 100vh;
   display: flex;
+  align-items: center;
   flex-direction: column;
   position:relative;
 }
@@ -16,6 +17,7 @@ body{
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100vw;
   font-size: 2rem;
   color: orangered;
   background-color: black;
@@ -23,7 +25,9 @@ body{
 
 main{
   display: flex;
+  /* width: 90%; */
   flex-direction: column;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -105,7 +109,7 @@ button:active {
 
 @media screen and (max-width: 700px) {
   .buttons {
-    gap: 1.3rem;
+    gap: 1rem;
   }
 
   button {
