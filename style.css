@@ -121,4 +121,8 @@ button:active {
     font-size: 1.3rem;
   }
 
+  .game-result-wrapper{
+    padding: 1rem 3rem;
+  }
+
 }
